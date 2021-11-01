@@ -10,11 +10,4 @@ for(let i = 0;i<konutKredileri.length;i++)
     console.log("<li>"+konutKredileri[i]+"<li>")
 }
 
- {/*
-    <ul>
-    <li>Konut Kredisi</li>
-    <li>Emlak Konut Kredisi</li>
-    <li>Kamu Konut Kredisi</li>
-    <ul> */
-}
-    
+
