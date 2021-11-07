@@ -1,4 +1,4 @@
-function addToCart(quantity, productName="Elma") 
+function addToCart(quantity, productName="sepetin şu an boş") 
 {
     console.log("Sepete Eklendi, ürün :  " + productName + " Adet : " + quantity)    
 }
@@ -67,7 +67,7 @@ let products = [
 
 addToCart4(products)
 
-/*function add(bisey, ...numbers) {
+function add(bisey, ...numbers) {
     let total = 0;
     for (let i = 0; i < numbers.length; i++) {
         total = total + numbers[i]
@@ -77,7 +77,7 @@ console.log(bisey) // add(20,30,40) için 20 değeri biseye atanır. kalan değe
 }
 add(20,30)
 add(20,30,40)                   // DÜZELT BURA OLMADI HATA VAR BAK
-add(20,30,40,50) */
+add(20,30,40,50) 
 
 let numbers = [30,10,500,600,120]
 console.log(Math.max(...numbers))
@@ -95,11 +95,10 @@ let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri,marmaraSehirleri]] = [
     ]
 ]
 
-console.log(icAnadolu.name)
-console.log(icAnadolu.population)
-console.log(karadeniz)
 console.log(icAnadoluSehirleri)
+console.log(icAnadolu)
 console.log(marmaraSehirleri)
+
 
 
 
