@@ -16,13 +16,13 @@ function isitPrime (...numbers) {
 
                 let prime = 0
                 prime = numbers[i]
-
             }
         }
             if (prime != numbers[i]) 
-            {
+            
+                {
                 console.log("Bu sayı asal sayıdır : " + numbers[i])
-            }
+                }
     }
 }
 isitPrime(2,4,6,7,9,11,13,21)
