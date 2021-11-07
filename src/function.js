@@ -1,4 +1,4 @@
-function addToCart(quantity, productName="sepetin şu an boş") 
+/*function addToCart(quantity, productName="sepetin şu an boş") 
 {
     console.log("Sepete Eklendi, ürün :  " + productName + " Adet : " + quantity)    
 }
@@ -108,3 +108,56 @@ let newproductName, newunitPrice, newQuantity
 console.log(newproductName)
 console.log(newunitPrice)
 console.log(newQuantity)
+
+*/
+
+
+/* function isitPrime (...numbers) {
+    
+    console.log("Sayılar : " + numbers)
+
+    for (let i = 0; i < numbers.length; i++) {
+        
+        for (let j = 2; j < numbers[i]; j++ ) {
+        
+            console.log("j : " + j)
+
+            let total = numbers[i] % j
+       
+        if (total == 0) {
+            
+            console.log("Bu sayı asal değildir : " + numbers[i])
+        
+    }
+        else {console.log("Bu sayı asal sayıdır : " + numbers[i])} 
+    }  
+          
+    }
+}
+
+isitPrime() */
+
+
+function isitPrime (...numbers) {
+
+    console.log("Sayılar : " + numbers)
+
+    for (let i = 0; i < numbers.length; i++) {
+
+        for (let j = 2; j < numbers[i]; j++ ) {
+
+            if (numbers[i] %j=== 0) {
+
+            console.log("Bu sayı asal değildir : " + numbers[i])
+
+            let prime = 0
+            prime = numbers[i]
+
+            }
+        }
+            if(prime != numbers[i]){
+            console.log("Bu sayı asal sayıdır : " + numbers[i])
+            }
+    }
+}
+isitPrime(7,11,13,2,21,23)
