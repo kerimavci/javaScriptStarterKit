@@ -6,3 +6,4 @@ export default class Customer extends User{
         this.creditCardNumber = creditCardNumber
     }
 }
+// customer classına kredi kartı numarası ekledik.
